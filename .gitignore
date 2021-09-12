@@ -1,0 +1,4 @@
+*.pyc
+thirdparty/*
+server/bin/*
+server/.idea/*
