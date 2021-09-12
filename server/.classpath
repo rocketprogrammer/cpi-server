@@ -6,12 +6,12 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Rocket/Desktop/Projects/Games/Disney/ClubPenguin/SmartFoxServer_2X/SFS2X/lib/sfs2x.jar">
+	<classpathentry kind="lib" path="C:/SmartFoxServer_2X/SFS2X/lib/sfs2x.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Rocket/Desktop/Projects/Games/Disney/ClubPenguin/SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar">
+	<classpathentry kind="lib" path="C:/SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
