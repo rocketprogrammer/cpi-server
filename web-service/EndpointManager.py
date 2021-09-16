@@ -4,9 +4,6 @@ import logging, asyncio, requests, json
 # Setup logging for web requests.
 logging.basicConfig(level = logging.INFO)
 
-class Globals:
-    configurationEndpoint = 'https://registerdisney.go.com/jgc/v5/client/DI-CPREMIXAND.GC-PROD/configuration/site'
-
 async def handleRequestApiKey(request):
     data = {
         'success': 1
@@ -19,31 +16,32 @@ async def handleRequestApiKey(request):
     return web.json_response(data, headers = headers)
 
 async def handleGuestLogin(request):
-    args = await request.post()
-    print('login', request.rel_url.query)
-    response = open('login.json').read()
-    return web.Response(body = response)
+    args = await request.json()
+
+    username = args['loginValue']
+    password = args['password']
+
+    response = {}
+    return web.json_response(response)
 
 async def handleSiteConfiguration(request):
-    data = open('data.json').read()
-    return web.Response(body = data)
+    data = open('resources/site/configuration.json').read()
+    return web.json_response(data)
 
 async def handleRegistrationText(request):
-    data = json.dumps(
-        {
-            'RegistrationText': {
-                'TextCode': '',
-                'text': 'Test'
-            }
-        }
-    )
+    data = {}
+    data['Status'] = 'OK'
 
+    data['RegistrationText'] = [{
+        'TextCode': 'gtou_ppv2_proxy_create',
+        'Text': ''
+    }]
 
     headers = {
         'api-key': 'vsKeOpMOZYOH6WPsOZZ7zpulDoxF8Ob5'
     }
 
-    return web.Response(body = data, headers = headers)
+    return web.json_response(data, headers = headers)
 
 async def handleValidate(request):
     data = {
