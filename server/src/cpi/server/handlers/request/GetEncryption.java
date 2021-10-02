@@ -29,8 +29,7 @@ public class GetEncryption extends BaseClientRequestHandler {
     public void handleClientRequest(User user, ISFSObject params) {
         String modulus = params.getUtfString("pkm");
         String exponent = params.getUtfString("pke");
-        trace("GET_ROOM_ENCRYPTION_KEY " + modulus);
-        trace(exponent);
+        trace("GET_ROOM_ENCRYPTION_KEY " + modulus + " " + exponent);
 
         ISFSObject data = new SFSObject();
 
