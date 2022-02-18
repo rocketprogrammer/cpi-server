@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="file://C:/SmartFoxServer_2X/SFS2X/lib/sfs2x.jar" />
-    <libelement value="file://C:/SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar" />
+    <libelement value="file://D:/Projects/CPI/SmartFoxServer_2X/SFS2X/lib/sfs2x.jar" />
+    <libelement value="file://D:/Projects/CPI/SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar" />
     <src_description expected_position="0">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
     </src_description>
@@ -18,7 +18,7 @@
     <orderEntry type="module-library">
       <library name="sfs2x.jar">
         <CLASSES>
-          <root url="file://C:/SmartFoxServer_2X/SFS2X/lib/sfs2x.jar" />
+          <root url="file://D:/Projects/CPI/SmartFoxServer_2X/SFS2X/lib/sfs2x.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -27,7 +27,7 @@
     <orderEntry type="module-library">
       <library name="sfs2x-core.jar">
         <CLASSES>
-          <root url="file://C:/SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar" />
+          <root url="file://D:/Projects/CPI/SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
