@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="file://D:/Projects/CPI/SmartFoxServer_2X/SFS2X/lib/sfs2x.jar" />
-    <libelement value="file://D:/Projects/CPI/SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar" />
+    <libelement value="file://$MODULE_DIR$/../../SmartFoxServer_2X/SFS2X/lib/sfs2x.jar" />
+    <libelement value="file://$MODULE_DIR$/../../SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar" />
     <src_description expected_position="0">
       <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
     </src_description>
@@ -15,25 +15,27 @@
     </content>
     <orderEntry type="jdk" jdkName="corretto-1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="sfs2x.jar">
         <CLASSES>
-          <root url="file://D:/Projects/CPI/SmartFoxServer_2X/SFS2X/lib/sfs2x.jar" />
+          <root url="file://$MODULE_DIR$/../../SmartFoxServer_2X/SFS2X/lib/sfs2x.jar" />
         </CLASSES>
-        <JAVADOC />
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Downloads/sfs2x-javadoc.zip!/" />
+        </JAVADOC>
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library name="sfs2x-core.jar">
         <CLASSES>
-          <root url="file://D:/Projects/CPI/SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar" />
+          <root url="file://$MODULE_DIR$/../../SmartFoxServer_2X/SFS2X/lib/sfs2x-core.jar" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/bcprov-jdk15to18-169.jar!/" />
@@ -42,5 +44,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="sfs2x" level="project" />
   </component>
 </module>
